@@ -5,7 +5,7 @@ body{
 #encabezado{
     display: flex;
     background-color: #e62311;
-    width: 100%;
+    width: auto;
     height: 12vh;
 }
 
