@@ -1,0 +1,130 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#encabezado{
+    display: flex;
+    background-color: #e62311;
+    width: 100%;
+    height: 12vh;
+}
+
+#encabezado img{
+    margin: 0.1rem 0.1rem 0.1rem 0.5rem;
+    width: auto;
+    height: 95%;
+}
+
+#logo{
+    width: 50%;
+}
+
+#menu{
+    justify-content: end;
+    align-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+#menu button{
+    color: white;
+    font-size: 1.7rem;
+    background: none;
+    border: none;
+    width: 25%;
+    height: 50%;
+    margin: 1.1rem;
+    border-radius: 1rem;
+    transition: background-color 0.25s ease,
+    transform 0.25s ease;
+
+}
+
+#menu button:hover{
+    background-color: #fccf00;
+    border-radius: 1rem;
+    transform: translateY(-1px);
+}
+
+#blockOne{
+    display: flex;
+    color: black;
+    height: 78vh;
+}
+
+#sectionOne{
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    text-align: center;
+    width: 40%;
+}
+
+#sectionOne img{
+    margin: 3rem 3rem 3rem 3rem;
+    width: 85%;
+    height: 85%;
+}
+
+#sectionTwo{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+    font-size: 1.2rem;
+    width: 60%;
+}
+
+#info{
+    width: 80%;
+    height: auto;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    color: white;
+    background-color: #43af35;
+    border-bottom: 1rem solid #fccf00;
+}
+
+#final{
+    display: flex;
+    background-color: #009cd9;
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+    align-items: center;
+    height: 10vh;
+}
+
+#final p{
+    margin: 0 0 0 2rem;
+}
+
+#info2{
+    width: 80%;
+}
+
+#game{
+    text-align: center;
+    width: 20%;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #43af35;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    width: auto;
+    height: 50%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    transition: background-color 0.25s ease;
+
+}
+
+.btn:hover{
+    background-color: #e62311;
+    border-radius: 1rem;
+}
